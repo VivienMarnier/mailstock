@@ -66,7 +66,7 @@ class MailStock extends Module
         $mailSubject = 'Product quantity updated';
         $productName = $this->getProductName($productId);
         $template = "product_quantity_updated";
-        $recipient = "vivienmarnier@gmail.com";
+        $recipient = "admin@prestashop.com";
         $data = [
             'quantity' => $quantity,
             'productName' =>$productName,
